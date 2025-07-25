@@ -1,87 +1,101 @@
-*, *::before, *::after {
-    box-sizing: border-box;
-  }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
 * {
-    margin: 0;
-    font-family: "Poppins", sans-serif;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
-    line-height: 1.5;
-    -webkit-font-smoothing: antialiased;
-    background-color: #dccaff;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  background-color: #dccaff;
 }
 
-img, picture, video, canvas, svg {
-    display: block;
-    max-width: 100%;
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
 }
 
-input, button, textarea, select {
-    font: inherit;
+input,
+button,
+textarea,
+select {
+  font: inherit;
 }
 
-p, h1, h2, h3, h4, h5, h6 {
-    overflow-wrap: break-word;
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
 }
-  
 
 .container {
-    background-color: #FFFFFF;
-    width: 343px;
-    padding: 48px 24px;
-    border-radius: 24px 24px 100px 24px;
-    margin: 0 auto;
-    margin-top: 88px;
+  background-color: #ffffff;
+  width: 343px;
+  padding: 48px 24px;
+  border-radius: 24px 24px 100px 24px;
+  margin: 0 auto;
+  margin-top: 88px;
 }
 
 .form-group {
-    display: flex;
-    gap: 16px;
-    flex-wrap: wrap;
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
 }
 
 .form {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 label {
-    color: #716F6F;
-    font-size: 12px;
-    font-weight: 700;
-    line-height: 18px;
-    letter-spacing: 0.25em;
-    text-align: left;
+  color: #716f6f;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0.25em;
+  text-align: left;
 }
 
 input {
-    width: 87px;
-    height: 54px;
-    border-radius: 6px;
-    border: 1px solid #DCDCDC;
-    margin-bottom: 32px;
+  width: 87px;
+  height: 54px;
+  border-radius: 6px;
+  border: 1px solid #dcdcdc;
+  margin-bottom: 32px;
 }
 
 button {
-    background-color: #854DFF;
-    border: none;
-    padding: 20px;
-    border-radius: 100%;
-    margin: 0 auto;
-    margin-bottom: 32px;
+  background-color: #854dff;
+  border: none;
+  padding: 20px;
+  border-radius: 100%;
+  margin: 0 auto;
+  margin-bottom: 32px;
 }
 
 h1 {
-    font-size: 56px;
-    font-style: italic;
-    font-weight: 800;
-    line-height: 61.6px;
-    letter-spacing: -0.02em;
-    text-align: left;
+  font-size: 56px;
+  font-style: italic;
+  font-weight: 800;
+  line-height: 61.6px;
+  letter-spacing: -0.02em;
+  text-align: left;
 }
 
 h1 span {
-    color: #854DFF;
+  color: #854dff;
 }
